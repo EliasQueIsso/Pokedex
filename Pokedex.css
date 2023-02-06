@@ -40,9 +40,32 @@ h1{
     text-align: center;
 }
 
-.Pokemon{
+.logoPokemon{
     width: auto;
     height: 9.37rem;
+    justify-content: center;
+}
+
+#imgPokemon{
+    text-align: center;
+}
+
+#imgPokemon img{
+    width: 6rem;
+    margin: 0.6rem;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.Pokemon{
+    width: 6rem;
+    margin: 0.6rem;
+    text-align: center;
+    border: 1px solid #000;
+    border-radius: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 }
 
 .InserirPokemon{
@@ -58,7 +81,7 @@ h1{
     height: 3rem;
     margin-top: 0.6rem;
     padding: 0px;
-    border: 1px none #000;
+    border: 1px solid #000;
     border-radius: 0.3rem;
     align-items: center;
     justify-content: center;
@@ -68,14 +91,19 @@ h1{
     cursor: pointer;
 }
 
-.EtcPokemon{
+.PesquisarPokemon:hover{
+    background-color: #424E70;
+    font-size: 1.8rem;
+}
+
+#EtcPokemon{
     width: 100%;
-    height: 3rem;
-    border: 1px none #000;
+    margin-top: 0.6rem;
+    border: 1px solid #000;
     border-radius: 0.3rem;
-    align-items: center;
-    justify-content: center;
-    font-size: 1.6rem;
+    text-align: center;
+    font-family: monospace;
+    font-size: 1.3rem;
     color: rgb(0, 0, 0);
     background-color: #F2B807;
 }
@@ -90,4 +118,10 @@ h1{
         width: auto;
         height: 6rem;
     }
+
+    .Pokemon{
+        width: auto;
+        height: 6rem;
+    }
+    
 }
